@@ -1,0 +1,41 @@
+/* Font smoothing */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+/* Logo context menu */
+#logo-context-menu {
+  display: none;
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#logo-context-menu.menu-open {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+  animation: menu-fade-in 0.3s ease-in-out;
+}
+
+@keyframes menu-fade-in {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

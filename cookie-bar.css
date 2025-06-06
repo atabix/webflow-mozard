@@ -1,0 +1,100 @@
+#hs-banner-parent * {
+    font-family: Graphik, sans-serif !important;
+  }
+
+  #hs-banner-parent #hs-eu-cookie-confirmation {
+    color: #000000 !important;
+    inset: 0 !important;
+  	background: #ffffff !important;
+    bottom: 2rem !important;
+    right: 2rem !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    width: 34rem !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    border-top-left-radius: 0px !important;
+}
+  
+ #hs-eu-cookie-disclaimer {
+   margin-bottom: 1.5rem !important;
+ }
+
+#hs-eu-cookie-confirmation #hs-eu-confirmation-button,
+#hs-eu-cookie-confirmation #hs-eu-cookie-settings-button,
+#hs-eu-cookie-confirmation #hs-eu-decline-button,
+#hs-modal-content #hs-modal-accept-all,
+#hs-modal-content #hs-modal-save-settings {
+  font-family: Graphik,sans-serif !important;
+  font-weight: 600 !important;
+  height: 2.5rem !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-confirmation-button,
+#hs-eu-cookie-confirmation #hs-eu-decline-button,
+#hs-modal-content #hs-modal-accept-all,
+#hs-modal-content #hs-modal-save-settings {
+  border-radius: 8px !important;
+  border-top-left-radius: 0px !important;
+  border: 1px solid #0a3d3a !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-confirmation-button,
+#hs-modal-content #hs-modal-accept-all {
+  background: #0a3d3a !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-decline-button,
+#hs-modal-content #hs-modal-save-settings {
+  color: #0a3d3a !important;
+}
+
+#hs-modal-content #hs-modal-accept-all,
+#hs-modal-content #hs-modal-save-settings {
+  min-width: 12rem !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-confirmation-button:hover,
+#hs-eu-cookie-confirmation #hs-eu-decline-button:hover,
+#hs-modal-content #hs-modal-accept-all:hover,
+#hs-modal-content #hs-modal-save-settings:hover {
+  border: 1px solid #165f5b !important;
+  background: #165f5b !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-decline-button:hover,
+#hs-modal-content #hs-modal-save-settings:hover {
+  color: #ffffff !important;
+}
+
+#hs-eu-cookie-confirmation #hs-eu-cookie-settings-button {
+  text-decoration: none !important;
+}
+
+#hs-banner-parent #hs-modal-content {
+  background-color: #ffffff  !important;
+  color: #000000  !important;
+}
+
+#hs-modal-content #hs-categories-container .hs-category-row {
+  border: 1px solid #dbdbdb !important;
+}
+
+#hs-modal-content #hs-categories-container .hs-category-label,
+#hs-modal-content #hs-categories-container .description-accordion-arrow { 
+  color: #000000 !important;
+}
+
+#hs-modal-content #hs-categories-container .hs-category-description.visible {
+  color: #696969 !important;
+}
+
+#hs-modal-content #hs-categories-container .description-accordion-arrow.rotated {
+  color: #00856a !important;
+}
+
+#hs-modal-content #hs-categories-container .hs-always-active-label {
+  color: #0a3d3a! important
+}
